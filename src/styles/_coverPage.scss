@@ -1,0 +1,128 @@
+
+
+
+.cover { 
+    overflow: hidden;
+    font-family: Montserrat;
+    .cover-p1 {
+            position: absolute;    
+            font-size: 48px;
+            color: #CFB995;
+            left: 39%;
+        }
+    .cover-p2 {
+            position: absolute;    
+            font-size: 22px;
+            color: #fff;
+            left: 39%;
+            top: 172px;
+        }
+    
+.search {
+    width: 100%;
+    position: relative;
+    display: flex;
+  }
+  
+  .search-term {
+    width: 100%;
+    border: 1px solid #fff;
+    background: transparent;
+    padding: 5px;
+    //height: 20px;
+    border-radius: 5px 5px 5px 5px;
+    outline: none;
+    color: #9DBFAF;
+  }
+  
+  .search-term:focus{
+    color: #00B4CC;
+  }
+  
+  .searchButton {
+    width: 40px;
+    height: 36px;
+    border: 1px solid #00B4CC;
+    background: #00B4CC;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  /*Resize the wrap to see the search bar change!*/
+  .search-suggestion-wrap{
+    width: 30%;
+    position: relative;
+    margin-top: 20px;
+    top: 60%;
+    left:50%;
+    background: white;
+    border-radius: 0 5px 5px 0;
+    color: #A8A8A8;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    transform: translate(-50%, -50%);
+    border: solid 1px #dbdbdb;
+  }
+
+  .hr-line{
+    margin-left: 5px;
+    margin-right: 5px; 
+    height: 0px; 
+    border: 0px solid;
+    border-top: 1px solid;
+  }
+   .search-wrap{
+    width: 30%;
+    position: absolute;
+    top: 40%;
+    left: 36%;
+   }
+   .search-icon{
+    position: relative;
+    top: 50%;
+    left:-40px;
+   }
+  .cover-search-img{
+    padding: 8px 4px 4px 4px;
+    width: 20px;
+    cursor: pointer;
+  }
+  .search-filter{
+    //position: absolute;
+    max-height: 200px;
+    overflow: auto;
+    :hover{
+      cursor: pointer;
+    }
+    p{
+      text-align: start;
+      margin-left: 10px;
+    }
+  }
+        
+    }
+
+
+    @media screen and (max-width: 600px) {
+    .cover {
+      display: flex;
+      justify-content: center;
+      .cover-p1{
+          left: auto !important;
+          top: 20 !important;
+      }
+      .cover-p2{
+          left: auto !important;
+          top: auto !important;
+          top: 22% !important;
+      }
+      .search-wrap{
+        width: 85%;
+        left: 12%;
+        top: 35% !important;
+
+      }
+  }
+}

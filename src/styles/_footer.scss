@@ -1,0 +1,29 @@
+
+
+  .footer { 
+    overflow: hidden;
+      a {
+            position: absolute;
+            color: #fff;
+            margin: 122px 0 0 90px;
+            float: right;
+            cursor: pointer;
+        }
+    .path {
+            position: relative ;    
+            right: 468px;
+            bottom: 75px 
+        }
+        .footer-left {
+          position: absolute;
+          color: #fff;
+          // width: 195px;
+          // height: 40px;
+          margin: 90px;
+          font-family: Montserrat;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: 1.25;
+          letter-spacing: normal;
+        }
+    }

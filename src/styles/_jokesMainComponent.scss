@@ -1,0 +1,228 @@
+.main {
+    background:#F9F9F9;
+
+      .animal{
+        background-color:#FF5B5B;
+    }
+.career {
+        background-color:#FF915B;
+    }
+.celebrity{
+        background-color:#FFBE5B;
+    }
+
+.dev{
+        background-color:#FFDF5B;
+    }
+.explicit {
+        background-color:#8FE360;
+    }
+.fashion{
+        background-color:#57E690;
+    }
+.food{
+        background-color:#57DBE6;
+    }
+
+
+    .history{
+        background-color:#ff0047;
+    }
+.money {
+        background-color:#ff9947;
+    }
+.movie{
+        background-color:#FFBE5B;
+    }
+
+.music{
+        background-color:#ff99d3;
+    }
+.political {
+        background-color:#0099d3;
+    }
+.religion{
+        background-color:#57E690;
+    }
+.science{
+        background-color:#00ffd3;
+    }
+
+  .sport{
+        background-color:#ff83d3;
+    }
+.travel{
+        background-color:#ff8300;
+    }
+  
+      .flex-container1 {
+        display:flex;
+        flex-wrap:wrap;
+        margin-left:61px;
+        margin-right:34px;
+
+    
+
+    .Rectangle-Copy-4 {
+            font-size:14px;
+            font-weight:600;
+            color:#fff;
+            width:222px;
+            height:20px;
+            margin:10px;
+            padding:14px 0;
+            border-radius:2px;
+            cursor:pointer;
+        }
+
+    }
+      
+  
+    .flex-container {
+        display:flex;
+        flex-wrap:wrap;
+        margin-right:37px;
+        margin-left:60px;
+
+        .card {
+            box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            transition:0.3s;
+            width:30%;
+            margin:20px 15px  20px 15px;
+            display:flex;
+            flex-direction:column;
+              .card-header {
+                img {
+                    display:inline;
+                    float:left;
+                    margin-top:7px;
+                }
+                  .card-categorie {
+                    h4 {
+                        display:inline;
+                    }
+                    text-align:left;
+                    margin-left:25px;
+                }
+
+            }
+              .card-text {
+                text-align:left;
+                color:#303030;
+                p{
+                    font-weight:500;
+                    font-size:14px;
+                }
+            }
+                .see-stats {
+                cursor:pointer;
+                font-family:Montserrat;
+                font-size:14px;
+                font-weight:600;
+                color:#cfb995;
+                margin-right:5px;
+                text-align:right;
+                margin-right:15px;
+                margin-top:auto;
+                margin-bottom:15px;
+            }
+        }
+  
+  .card:hover {
+            box-shadow:0 8px 16px 0 rgba(0, 0, 0, 0.2);
+        }
+  
+  .container {
+            padding:2px 16px;
+            cursor:pointer;
+        }
+
+
+    }
+  
+      .categorie{
+        width:10%;
+        color:#fff;
+        border-radius:25px;
+        margin-left:69px;
+        margin-top:0%;
+    }
+      .line{
+        height:2px;
+        margin:40px 75px 0;
+        background:#ecebe9
+    }
+      .view-all {
+        width:222px;
+        height:20px;
+        margin:10px;
+        padding:14px 0;
+        font-size:14px;
+        font-weight:600;
+        color:#cfb995;
+        border-radius:2px;
+        background-color:#fff;
+        border-radius:2px;
+        border:solid 1px #d1bb91;
+        cursor:pointer;
+        img{
+            width:16px;
+            height:16px;
+            margin-left:36px;
+        }
+    }
+    
+      .view-more {
+        width:206px;
+        font-size:14px;
+        font-weight:600;
+        color:#cfb995;
+        height:20px;
+        margin:30px;
+        padding:14px 0;
+        border-radius:2px;
+        background-color:#fff;
+        cursor:pointer;
+        display:block;
+        margin-left:auto;
+        margin-right:auto;
+        border-radius:2px;
+        border:solid 1px #d1bb91;
+        img{
+            width:16px;
+            height:16px;
+            margin-left:36px;
+        }
+    }
+    
+      .view-less{
+        display:none;
+    }
+
+}
+
+
+@media screen and(max-width:600px) {
+    .view-more {
+        margin-left:64px;
+    }
+    .main {
+        .flex-container {
+            .card {
+                width:100%;
+            }
+            .card1 {
+                width:100%;
+                .Rectangle-Copy-4{
+                    width:80%;
+                    margin-left:13px;
+                }
+
+            }
+        }
+    .categorie {
+            width:28%;
+        }
+
+    }
+}

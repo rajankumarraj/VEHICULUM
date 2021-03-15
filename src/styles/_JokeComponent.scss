@@ -1,0 +1,193 @@
+.joke{
+  .joke-component {
+
+    width:100%;
+    display:flex;
+    .card-header {
+      width:60%;
+    
+    .card {
+        //box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        border: solid 1px #ecebe9;
+        transition:0.3s;
+        // width:60%;
+        margin:60px 0 10px 120px;
+      
+      .joke-container {
+          padding:2px 16px;
+          .categorie{
+            background: #57E690;
+            width: min-content;
+            padding: inherit;
+            border-radius: 25px;
+            margin-left: 15px;
+          }
+
+          .something {
+            border-bottom: solid 1px #cfb995;
+            height: 23px;
+            line-height: 20px;
+            text-align: left;
+
+            .joke-categorie {
+              background-color: #FFF;
+              display: inline;
+              padding: 0 10px; /* <--- */
+                   font-size:40px;
+            text-align: start;
+            color:#cfb995;
+            margin-top: auto;
+            margin-bottom: 30px;
+          }
+          }
+        // .joke-categorie {
+        //     font-size:40px;
+        //     text-align: start;
+        //     color:#cfb995;
+        //     margin-top: auto;
+
+        //   } 
+        .joke-text {
+          text-align:start;
+            margin: 40px 0 20px 10px;
+            font-weight: 500;
+            font-size: 14px;
+        }
+
+        }
+      }
+
+    .joke-footer{
+        display:flex;
+        
+        .hand {
+          margin-left:140px;
+          cursor:pointer;
+        :hover {
+            background:#46915D;
+          }
+          img {
+            background:#68b680;
+            border-radius:50%;
+            width:30px;
+            padding: 10px;
+          }
+        }
+        .hand-copy {
+          margin-left:30px;
+          cursor:pointer;
+        :hover {
+            background:#CE2C40;
+          }
+          img {
+            background:#ff3750;
+            border-radius:50%;
+            width:30px;
+            padding: 10px;
+          }
+        }
+      .joke-prev-button {
+            width: 131px;
+            height: 20px;
+            padding: 14px 0;
+            font-weight: 600;
+            color: #cfb995;
+            font-family: Montserrat;
+            border: solid 1px #ecebe9;
+            margin-left: auto;
+            cursor:pointer;
+            img {
+              margin-right: 7px;
+              margin-top: 2px;
+            }
+        }
+        .joke-next-button {
+          width: 131px;
+          height: 20px;
+          padding: 14px 0;
+          font-weight: 600;
+          color: #cfb995;
+          font-family: Montserrat;
+          border: solid 1px #ecebe9;
+          margin-left: 40px;
+          cursor:pointer;
+          img {
+            margin-left: 7px;
+            margin-top: 2px;
+          }
+      }
+      
+      }
+    }
+    
+    .card:hover {
+      box-shadow:0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    .joke-top-component{
+      margin: 60px 33px 20px 40px;
+      width:40%;
+      border: solid 1px #ecebe9;
+     
+      
+      .top-jokes {
+        margin:60px 0 10px 30px;
+        font-family: Montserrat;
+        font-size:18px;
+        text-align:left;
+      }
+
+      .top-jokes-list {
+        font-family: Montserrat;
+        font-size:18px;
+        margin-left:30px;
+        text-align:left;
+        line-height: 1.8;
+        color: #313131;
+        cursor: pointer;
+      }
+    }
+    .joke-top-component:hover{
+      box-shadow:0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    }
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .joke .joke-component {
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    .joke-top-component {
+      width: 100%;
+    }
+    .card-header {
+       width: 100%;
+       .card {
+        margin: 60px 33px 20px 40px;
+       }
+       .joke-footer {
+        flex-wrap: wrap;
+         .hand {
+          margin-left: 86px;
+         }
+         .hand-copy {
+          margin-left: 129px;
+      }
+      .joke-next-button { 
+        width: 80%;
+        margin-right: auto;
+        margin-top: 20px;
+      }
+      .joke-prev-button {
+        width: 80%;
+        margin-top: 20px;
+    margin-right: auto;
+      }
+        
+       }
+    }
+}
+
+}
